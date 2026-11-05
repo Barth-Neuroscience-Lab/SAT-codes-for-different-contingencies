@@ -172,7 +172,6 @@ Data rows are buffered in RAM and written to the file every 40 samples and at th
 ## Notes for reproducibility
 
 - **Code unchanged.** Only comments and leading whitespace were added or edited when these sketches were prepared for publication. Stripping comments and whitespace from each curated file gives the same code as the version used to collect the data.
-- **Comment corrected.** In `ProbSAT80SR_5R_15B_V1` the original comment on the blank branch said 20 %. The code's threshold gives 15 %, which matches the sketch name, and the comment now says so.
 - **Sampling.** Lick and beam states are sampled at about 10 Hz, and only while a trial is running. Licks shorter than the sampling interval may be missed.
 - **Pump pulse.** The 75 ms pump pulse uses a blocking `delay()`, so no samples are logged during it.
 - **Probability variables.** In the independent-draw sketches, `waterprob` and `puffprob` set the trial probabilities. In the ProbSAT sketches these variables are declared but unused, and the probabilities come from the `trialtype` thresholds in `loop()`.
