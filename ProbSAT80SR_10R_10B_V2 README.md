@@ -1,6 +1,8 @@
 # ProbSAT80SR_10R_10B_V2
 
-One of the eight air-puff / water-reward task sketches for the Arduino Yún (fixed-mix design). The task, timing, wiring, data format and upload steps are shared by the sketches and documented in the [Arduino README](../README.md).
+Sketch file: [`ProbSAT80SR_10R_10B_V2.ino`](ProbSAT80SR_10R_10B_V2.ino)
+
+One of the eight air-puff / water-reward task sketches for the Arduino Yún (fixed-mix design). The task, timing, wiring, data format and upload steps are shared by the sketches and documented in the [main README](README.md).
 
 ## Trial-type probabilities
 
