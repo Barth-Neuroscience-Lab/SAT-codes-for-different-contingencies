@@ -28,7 +28,7 @@ Each trial switches one puff-stage relay and one pump-stage relay with identical
 
 | Sketch | SR  (Stimulus + Reward) | S (Stimulus-only) | R (Reward-only) | B (No-stimulus + No-reward) | Data file prefix | Used for |
 |---|---|---|---|---|---|---|
-| [`ProbSAT40SR_40S_20B_V1`](ProbSAT40SR_40S_20B_V1/) | 40 % | 40 % | — | 20 % | `PrSAT40sr40s20b.txt` | [FIGURES 4C and 4D] |
+| [`ProbSAT40SR_40S_20B_V1`]([ProbSAT40SR_40S_20B_V1](https://github.com/Barth-Neuroscience-Lab/SAT-codes-for-different-contingencies/blob/main/ProbSAT40SR_40S_20B_V1.ino)/) | 40 % | 40 % | — | 20 % | `PrSAT40sr40s20b.txt` | [FIGURES 4C and 4D] |
 | [`ProbSAT50SR_30S_20B_V1`](ProbSAT50SR_30S_20B_V1/) | 50 % | 30 % | — | 20 % | `PrSAT50sr30s20b.txt` | [FIGURES 4B and 4D] |
 | [`ProbSAT60SR_20S_20B_V1`](ProbSAT60SR_20S_20B_V1/) | 60 % | 20 % | — | 20 % | `PrSAT60sr20s20b.txt` | [FIGURES 4A and 4D] |
 | [`ProbSAT60SR_20R_20B_V1`](ProbSAT60SR_20R_20B_V1/) | 60 % | — | 20 % | 20 % | `PrSAT60sr20r20b.txt` | [FIGURES S5A and S5C] |
